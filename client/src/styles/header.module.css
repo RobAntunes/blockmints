@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  position: absolute;
+  z-index: 99999;
+
+  color: #FFF;
+}
+
+.logo {
+  display: flex;
+  grid-column: 1 / 2 span;
+  justify-content: center;
+  align-items: center;
+}
+
+.header nav {
+  grid-column: 3/6;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__list {
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.nav__list__item {
+  margin-right: 20px;
+  
+  color: #FFF;
+  text-decoration: none;
+}
+
+.nav__list__item:last-of-type {
+  margin-right: 0px;
+}
+
+.connect {
+  grid-column: 7/9;
+  padding: 15px 20px;
+  margin: 30px 40px;
+  
+  background-color: #e0f359;
+
+  outline: none;
+  border: none;
+  border-radius: 6px;
+}
+
+.connect:hover {
+  cursor: pointer;
+}
+
+.connect:active {
+  background-color: #cfe23c;
+}
+
+.logo, .header nav, .nav__list {
+  display: inline-flex;
+}
+
+.logo h2,
+.nav__list,
+.connect {
+  font-family: "Montserrat";
+}

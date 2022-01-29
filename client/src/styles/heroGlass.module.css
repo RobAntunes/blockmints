@@ -1,0 +1,9 @@
+.background__glass {
+  position: absolute;
+}
+
+.background__glass img {
+  height: 100vh;
+  position: relative;
+  top: -160px;
+}

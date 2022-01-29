@@ -1,0 +1,7 @@
+.background__blur {
+  position: absolute;
+}
+
+.background__blur img {
+  width: 100vw;
+}

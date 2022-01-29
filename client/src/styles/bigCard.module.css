@@ -1,0 +1,33 @@
+@import "./card.module.css";
+
+.container {
+  height: 66vh;
+  width: 27vw;
+  grid-column: 3 / 4;
+  position: absolute;
+  top: 20vh;
+  right: 42px;
+
+  border-bottom-right-radius: 30px;
+
+  background: rgba(0, 0, 0, 0.527);
+  
+  font-family: "Montserrat";
+  color: #FFF;
+}
+
+.glass_effect__container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.glass_effect {
+  width: 100%;
+  border-bottom-right-radius: 30px;
+}
+
+.bid, .timer {
+  font-size: 18px;
+}
