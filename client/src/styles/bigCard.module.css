@@ -1,8 +1,8 @@
 @import "./card.module.css";
 
 .container {
-  height: 66vh;
-  width: 27vw;
+  height: 66%;
+  width: 27%;
   grid-column: 3 / 4;
   position: absolute;
   top: 20vh;
@@ -25,7 +25,11 @@
 
 .glass_effect {
   width: 100%;
-  border-bottom-right-radius: 30px;
+}
+
+.artwork {
+  border: 3px solid #e0f359;
+  border-radius: 3px;
 }
 
 .bid, .timer {

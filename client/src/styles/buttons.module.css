@@ -1,0 +1,31 @@
+.button_large {
+  padding: 15px 20px;
+  margin: 30px 40px;
+  
+  background-color: #e0f359;
+
+  font-family: "Montserrat";
+
+  outline: none;
+  border: none;
+  border-radius: 6px;
+}
+
+.button_large:hover {
+  cursor: pointer;
+}
+
+.button_large:active {
+  background-color: #cfe23c;
+}
+
+.header_button {
+  grid-column: 7/9;
+}
+
+.hero_button {
+  grid-column: 1 / 3;
+  grid-row: 2;
+  align-self: flex-end;
+  margin: 0;
+}

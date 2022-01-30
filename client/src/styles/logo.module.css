@@ -1,0 +1,5 @@
+.logo__wrapper {
+  grid-column: 1;
+  position: absolute;
+  top: 0px;
+}

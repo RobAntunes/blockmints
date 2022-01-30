@@ -18,6 +18,7 @@
 }
 
 .header nav {
+  display: flex;
   grid-column: 3/6;
   align-items: center;
   justify-content: center;
@@ -40,31 +41,6 @@
   margin-right: 0px;
 }
 
-.connect {
-  grid-column: 7/9;
-  padding: 15px 20px;
-  margin: 30px 40px;
-  
-  background-color: #e0f359;
-
-  outline: none;
-  border: none;
-  border-radius: 6px;
-}
-
-.connect:hover {
-  cursor: pointer;
-}
-
-.connect:active {
-  background-color: #cfe23c;
-}
-
-.logo, .header nav, .nav__list {
-  display: inline-flex;
-}
-
-.logo h2,
 .nav__list,
 .connect {
   font-family: "Montserrat";

@@ -6,14 +6,13 @@ const getImage = (hash) =>
       protocol: "https",
     };
 
-    let data;
     const req = require("request").defaults({ encoding: null });
     req
       .get(
         `${options.protocol}://${options.hostname}/${options.path}`,
         (err, res, body) => {
           if (!err && res.statusCode == 200) {
-            data =
+            const data =
               "data:" +
               res.headers["content-type"] +
               ";base64," +

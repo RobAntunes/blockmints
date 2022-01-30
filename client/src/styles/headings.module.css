@@ -1,0 +1,36 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+.heading {
+  grid-row: 1 / 2;
+  font-size: 64px;
+  color: #e0f359;
+  font-weight: 600;
+}
+
+.tagline {
+  margin: 20px;
+  margin-left: 0px;
+  grid-row: 2 / 4;
+  font-size: 18px;
+  font-weight: 100;
+  color: #FFF;
+}
+
+.heading, .tagline {
+  grid-column: 1 / 8;
+  font-family: "Montserrat";
+}
+
+.brand {
+  margin: 0;
+}
+
+.section__heading {
+  grid-column: 1 / 4;
+  text-align: center;
+  font-size: 56px;
+  color: #FFF;
+  font-weight: 500;
+}
